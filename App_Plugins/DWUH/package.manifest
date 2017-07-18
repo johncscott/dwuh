@@ -1,0 +1,14 @@
+﻿{
+    propertyEditors: [
+        {
+            alias: "dwuh",
+            name: "Document with Upload History",
+            editor: {
+                view: "/App_Plugins/Dwuh/dwuh.html"
+            }
+        }
+    ],
+    javascript: [
+        "/App_Plugins/Dwuh/dwuh.controller.js"
+    ]
+}
